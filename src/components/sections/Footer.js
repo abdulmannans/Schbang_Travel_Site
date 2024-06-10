@@ -7,7 +7,7 @@ import instagram from "./../../../public/instagram.png";
 
 const Footer = () => {
   return (
-    <div className="lg:flex lg:flex-row flex-col justify-between mb-4 md:h-[427px] w-screen md:w-[1440px] m-auto mt-40 overflow-hidden relative">
+    <div className="lg:flex lg:flex-row flex-col justify-between mb-4 md:h-[427px] w-screen md:w-[1440px] m-auto mt-40 overflow-hidden relative lg:p-14">
       <div className="lg:max-w-[350px] max-w-full pl-3 lg:pl-0 flex flex-col relative mb-10 lg:mb-0">
         <div className="flex gap-1 cursor-pointer md:gap-3">
           <Image src={logo} className="w-64 h-20 my-auto" alt="logo" />
@@ -53,7 +53,7 @@ const Footer = () => {
         </div>
       </div>
       {/* Icons */}
-      <div className="absolute bottom-0 lg:right-auto lg:left-1  right-3 flex justify-center gap-2 pt-10">
+      <div className="absolute bottom-0 lg:right-auto   right-3 flex justify-center gap-2 pt-10">
         <Image className="cursor-pointer" src={facebook} alt="facebook" />
         <Image className="cursor-pointer" src={twitter} alt="twitter" />
         <Image className="cursor-pointer" src={instagram} alt="instagram" />
